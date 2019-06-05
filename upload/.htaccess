@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/upload/thumbnail
+RewriteRule ^(.*)$ /mosaico-php/index.php [QSA,L]
